@@ -1,0 +1,363 @@
+
+[16:49:45 UTC] [SUCCESS] {"required_plugins":{"active":[],"inactive":[],"notinstalled":[{"slug":"elementor","init":"elementor\/elementor.php","name":"Elementor","action":"http:\/\/localhost\/thaolinhmateco\/wp-admin\/update.php?action=install-plugin&plugin=elementor&_wpnonce=f27c973fb8"},{"slug":"wpforms-lite","init":"wpforms-lite\/wpforms.php","name":"WPForms Lite","action":"http:\/\/localhost\/thaolinhmateco\/wp-admin\/update.php?action=install-plugin&plugin=wpforms-lite&_wpnonce=3b601cacff"},{"slug":"header-footer-elementor","init":"header-footer-elementor\/header-footer-elementor.php","name":"Ultimate Addons for Elementor Lite","action":"http:\/\/localhost\/thaolinhmateco\/wp-admin\/update.php?action=install-plugin&plugin=header-footer-elementor&_wpnonce=1578be04f0"},{"slug":"sureforms","init":"sureforms\/sureforms.php","name":"SureForms","action":"http:\/\/localhost\/thaolinhmateco\/wp-admin\/update.php?action=install-plugin&plugin=sureforms&_wpnonce=f9cbb7dad3"}]},"third_party_required_plugins":[],"update_avilable_plugins":[],"incompatible_plugins":[],"error":false} | Context: {"required_plugins":{"active":[],"inactive":[],"notinstalled":[{"slug":"elementor","init":"elementor\/elementor.php","name":"Elementor","action":"http:\/\/localhost\/thaolinhmateco\/wp-admin\/update.php?action=install-plugin&plugin=elementor&_wpnonce=f27c973fb8"},{"slug":"wpforms-lite","init":"wpforms-lite\/wpforms.php","name":"WPForms Lite","action":"http:\/\/localhost\/thaolinhmateco\/wp-admin\/update.php?action=install-plugin&plugin=wpforms-lite&_wpnonce=3b601cacff"},{"slug":"header-footer-elementor","init":"header-footer-elementor\/header-footer-elementor.php","name":"Ultimate Addons for Elementor Lite","action":"http:\/\/localhost\/thaolinhmateco\/wp-admin\/update.php?action=install-plugin&plugin=header-footer-elementor&_wpnonce=1578be04f0"},{"slug":"sureforms","init":"sureforms\/sureforms.php","name":"SureForms","action":"http:\/\/localhost\/thaolinhmateco\/wp-admin\/update.php?action=install-plugin&plugin=sureforms&_wpnonce=f9cbb7dad3"}]},"third_party_required_plugins":[],"update_avilable_plugins":[],"incompatible_plugins":[],"error":false}
+[16:49:49 UTC] [SUCCESS] {"permissions":{"is_readable":true,"is_writable":true,"is_wp_filesystem":true},"directory":"D:\\xampp\\htdocs\\thaolinhmateco\/wp-content\/uploads"} | Context: {"permissions":{"is_readable":true,"is_writable":true,"is_wp_filesystem":true},"directory":"D:\\xampp\\htdocs\\thaolinhmateco\/wp-content\/uploads"}
+[16:50:36 UTC] [INFO] Starting import process | Context: {"template_type":"classic","uuid":""}
+[16:50:36 UTC] [INFO] Started Import Process
+[16:50:36 UTC] [INFO] # System Details: 
+[16:50:36 UTC] [INFO] Debug Mode 		: Disabled
+[16:50:36 UTC] [INFO] Operating System 	: WINNT
+[16:50:36 UTC] [INFO] Software 		: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
+[16:50:36 UTC] [INFO] MySQL version 		: 10.4.32
+[16:50:36 UTC] [INFO] XML Reader 		: Yes
+[16:50:36 UTC] [INFO] PHP Version 		: 8.2.12
+[16:50:36 UTC] [INFO] PHP Max Input Vars 	: 1000
+[16:50:36 UTC] [INFO] PHP Max Post Size 	: 40M
+[16:50:36 UTC] [INFO] PHP Extension GD 	: No
+[16:50:36 UTC] [INFO] PHP Max Execution Time 	: 120
+[16:50:36 UTC] [INFO] Max Upload Size 	: 40 MB
+[16:50:36 UTC] [INFO] Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+[16:50:36 UTC] [INFO] Timezone 		: 0
+[16:50:36 UTC] [INFO] 
+-----
+
+[16:50:36 UTC] [INFO] Importing Started! - 16:50:36 UTC
+[16:50:37 UTC] [INFO] ---
+
+[16:50:37 UTC] [INFO] WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+[16:50:37 UTC] [INFO] https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+[16:50:37 UTC] [INFO] ---
+
+[16:50:37 UTC] [SUCCESS] Import process start flag set successfully | Context: {"template_type":"classic"}
+[16:50:41 UTC] [INFO] Image subsizes deferral enabled for import
+[16:50:41 UTC] [FATAL] There was an error on website: Uncaught Error - Call to a member function import_all_categories_and_tags() on array | Context: {"error_type":"Uncaught Error","message":"Call to a member function import_all_categories_and_tags() on array","file":"D:\\xampp\\htdocs\\thaolinhmateco\\wp-content\\plugins\\astra-sites\\inc\\lib\\starter-templates-importer\\importer\\helpers\\wp-background-process-astra-site-importer.php","line":50,"trace":"#0 D:\\xampp\\htdocs\\thaolinhmateco\\wp-content\\plugins\\astra-sites\\inc\\lib\\starter-templates-importer\\importer\\helpers\\wp-background-process.php(321): WP_Background_Process_Astra_Site_Importer->task(Array)\n#1 D:\\xampp\\htdocs\\thaolinhmateco\\wp-content\\plugins\\astra-sites\\inc\\lib\\starter-templates-importer\\importer\\helpers\\wp-background-process.php(468): WP_Background_Process->handle()\n#2 D:\\xampp\\htdocs\\thaolinhmateco\\wp-includes\\class-wp-hook.php(341): WP_Background_Process->handle_cron_healthcheck()\n#3 D:\\xampp\\htdocs\\thaolinhmateco\\wp-includes\\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)\n#4 D:\\xampp\\htdocs\\thaolinhmateco\\wp-includes\\plugin.php(570): WP_Hook->do_action(Array)\n#5 D:\\xampp\\htdocs\\thaolinhmateco\\wp-cron.php(191): do_action_ref_array('wp_astra_site_i...', Array)\n#6 {main}"}
+[16:50:47 UTC] [INFO] Image subsizes deferral enabled for import
+[16:51:24 UTC] [INFO] Checking if plugin directory clearing is needed
+[16:51:40 UTC] [INFO] Image subsizes deferral enabled for import
+[16:51:42 UTC] [SUCCESS] Plugin Activated | Context: {"success":true,"status":"activated","message":"Plugin Activated"}
+[16:51:43 UTC] [INFO] Checking if plugin directory clearing is needed
+[16:51:43 UTC] [INFO] Plugin install clear directory enabled - Will clear destination directory
+[16:51:43 UTC] [INFO] Plugin install clear directory options returned
+[16:51:45 UTC] [INFO] Image subsizes deferral enabled for import
+[16:52:52 UTC] [INFO] Image subsizes deferral enabled for import
+[16:53:00 UTC] [INFO] Image subsizes deferral enabled for import
+[16:53:07 UTC] [INFO] Checking if plugin directory clearing is needed
+[16:53:07 UTC] [INFO] Plugin install clear directory enabled - Will clear destination directory
+[16:53:07 UTC] [INFO] Plugin install clear directory options returned
+[16:53:18 UTC] [INFO] Image subsizes deferral enabled for import
+[16:53:19 UTC] [INFO] Image subsizes deferral enabled for import
+[16:53:21 UTC] [INFO] Checking if plugin directory clearing is needed
+[16:53:21 UTC] [INFO] Plugin install clear directory enabled - Will clear destination directory
+[16:53:21 UTC] [INFO] Plugin install clear directory options returned
+[16:53:22 UTC] [SUCCESS] Plugin Activated | Context: {"success":true,"status":"activated","message":"Plugin Activated"}
+[16:53:25 UTC] [INFO] Image subsizes deferral enabled for import
+[16:53:37 UTC] [INFO] Image subsizes deferral enabled for import
+[16:53:39 UTC] [INFO] Image subsizes deferral enabled for import
+[16:53:39 UTC] [INFO] Image subsizes deferral enabled for import
+[16:53:41 UTC] [SUCCESS] Plugin Activated | Context: {"success":true,"status":"activated","message":"Plugin Activated"}
+[16:53:41 UTC] [INFO] Checking if plugin directory clearing is needed
+[16:53:41 UTC] [INFO] Plugin install clear directory enabled - Will clear destination directory
+[16:53:41 UTC] [INFO] Plugin install clear directory options returned
+[16:53:53 UTC] [INFO] Checking if plugin directory clearing is needed
+[16:53:53 UTC] [INFO] Plugin install clear directory enabled - Will clear destination directory
+[16:53:53 UTC] [INFO] Plugin install clear directory options returned
+[16:54:02 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:04 UTC] [SUCCESS] Plugin Activated | Context: {"success":true,"status":"activated","message":"Plugin Activated"}
+[16:54:07 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:10 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:11 UTC] [INFO] All required plugins verified successfully.
+[16:54:14 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:18 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:19 UTC] [INFO] ---
+
+[16:54:19 UTC] [INFO] Starting WP Forms import process
+[16:54:19 UTC] [INFO] info | Context: {"file_url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/1125\/wpforms.json","timeout_seconds":300}
+[16:54:20 UTC] [INFO] success | Context: {"file_url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/1125\/wpforms.json","file_size":1485,"uploaded_file":"D:\\xampp\\htdocs\\thaolinhmateco\/wp-content\/uploads\/2026\/03\/wpforms.json"}
+[16:54:20 UTC] [SUCCESS] File downloaded successfully from: https://websitedemos.net/wp-content/uploads/astra-sites/1125/wpforms.json
+[16:54:20 UTC] [INFO] Checking if WPForms is already loaded
+[16:54:20 UTC] [INFO] WPForms is already loaded and ready
+[16:54:20 UTC] [SUCCESS] Successfully inserted WP Form ID 15 - Contact Form
+[16:54:20 UTC] [INFO] WPForms ID mappings saved: 1 mappings
+[16:54:20 UTC] [SUCCESS] WP Forms Imported. | Context: {"message":"WP Forms Imported.","mapping":{"1660":15}}
+[16:54:23 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:24 UTC] [INFO] ---
+
+[16:54:24 UTC] [INFO] Starting import customizer settings
+[16:54:24 UTC] [INFO] Importing customizer settings | Context: {"settings_count":0}
+[16:54:24 UTC] [INFO] Fetched customizer data from site data | Context: {"settings_count":2}
+[16:54:24 UTC] [INFO] Starting customizer settings import | Context: {"settings_count":2}
+[16:54:24 UTC] [INFO] Validating customizer data keys | Context: {"keys":["astra-settings","custom-css"]}
+[16:54:24 UTC] [INFO] Old customizer data backed up
+[16:54:24 UTC] [SUCCESS] Astra theme settings updated | Context: {"option_key":"astra-settings"}
+[16:54:24 UTC] [SUCCESS] Custom CSS updated | Context: {"option_key":"custom-css"}
+[16:54:24 UTC] [SUCCESS] Customizer settings import completed successfully
+[16:54:24 UTC] [SUCCESS] Customizer settings imported successfully
+[16:54:28 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:30 UTC] [INFO] ---
+
+[16:54:30 UTC] [INFO] Starting XML preparation process
+[16:54:30 UTC] [INFO] Starting XML data preparation | Context: {"wxr_url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/1125\/wxr.xml"}
+[16:54:30 UTC] [INFO] info | Context: {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/1125\/wxr.xml","host":"websitedemos.net"}
+[16:54:30 UTC] [INFO] WXR URL validation passed
+[16:54:30 UTC] [INFO] Starting XML file download | Context: {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/1125\/wxr.xml"}
+[16:54:30 UTC] [INFO] info | Context: {"file_url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/1125\/wxr.xml","timeout_seconds":300}
+[16:54:31 UTC] [INFO] success | Context: {"file_url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/1125\/wxr.xml","file_size":414267,"uploaded_file":"D:\\xampp\\htdocs\\thaolinhmateco\/wp-content\/uploads\/2026\/03\/wxr.xml"}
+[16:54:31 UTC] [SUCCESS] XML file downloaded successfully | Context: {"file_path":"D:\\xampp\\htdocs\\thaolinhmateco\/wp-content\/uploads\/2026\/03\/wxr.xml"}
+[16:54:31 UTC] [INFO] Inserting XML file as attachment | Context: {"filename":"wxr.xml"}
+[16:54:31 UTC] [SUCCESS] XML attachment created | Context: {"post_id":19}
+[16:54:31 UTC] [INFO] Generating attachment metadata | Context: {"post_id":19}
+[16:54:31 UTC] [INFO] Parsing XML data from file | Context: {"post_id":19}
+[16:54:31 UTC] [INFO] info | Context: {"xml_file_path":"D:\\xampp\\htdocs\\thaolinhmateco\/wp-content\/uploads\/2026\/03\/wxr.xml","xml_post_id":19}
+[16:54:31 UTC] [INFO] success | Context: {"xml_file_path":"D:\\xampp\\htdocs\\thaolinhmateco\/wp-content\/uploads\/2026\/03\/wxr.xml","post_count":11,"media_count":23,"author_count":3,"comment_count":0,"term_count":5}
+[16:54:31 UTC] [SUCCESS] XML data preparation completed successfully | Context: {"post_id":19,"has_data":true}
+[16:54:32 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:35 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:36 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:37 UTC] [INFO] info | Context: {"xml_url_provided":false}
+[16:54:37 UTC] [INFO] info | Context: {"xml_url":"D:\\xampp\\htdocs\\thaolinhmateco\/wp-content\/uploads\/2026\/03\/wxr.xml","file_size":414267}
+[16:54:48 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:49 UTC] [INFO] success | Context: {"post_id":1710,"post_type":"page","original_id":14,"post_title":"About"}
+[16:54:49 UTC] [INFO] success | Context: {"post_id":1711,"post_type":"page","original_id":15,"post_title":"Services"}
+[16:54:49 UTC] [INFO] success | Context: {"post_id":1712,"post_type":"page","original_id":16,"post_title":"Contact"}
+[16:54:49 UTC] [INFO] success | Context: {"post_id":1448,"post_type":"page","original_id":1448,"post_title":"Home"}
+[16:54:49 UTC] [INFO] success | Context: {"post_id":1659,"post_type":"elementor_library","original_id":1659,"post_title":"Default Kit"}
+[16:54:49 UTC] [INFO] success | Context: {"post_id":1666,"post_type":"nav_menu_item","original_id":1666,"post_title":""}
+[16:54:50 UTC] [INFO] success | Context: {"post_id":1667,"post_type":"nav_menu_item","original_id":1667,"post_title":""}
+[16:54:50 UTC] [INFO] success | Context: {"post_id":1668,"post_type":"nav_menu_item","original_id":1668,"post_title":""}
+[16:54:50 UTC] [INFO] success | Context: {"post_id":1669,"post_type":"wp_global_styles","original_id":1669,"post_title":"Custom Styles"}
+[16:54:51 UTC] [INFO] success | Context: {"post_id":1808,"post_type":"nav_menu_item","original_id":1808,"post_title":""}
+[16:54:51 UTC] [INFO] success | Context: {"post_id":2395,"post_type":"sureforms_form","original_id":2395,"post_title":"Simple Contact Form"}
+[16:54:52 UTC] [INFO] success | Context: {"xml_url":"D:\\xampp\\htdocs\\thaolinhmateco\/wp-content\/uploads\/2026\/03\/wxr.xml"}
+[16:54:55 UTC] [INFO] Image subsizes deferral enabled for import
+[16:54:56 UTC] [INFO] ---
+
+[16:54:56 UTC] [INFO] Starting import options
+[16:54:56 UTC] [INFO] Importing site options | Context: {"options":[]}
+[16:54:56 UTC] [INFO] Starting site options import | Context: {"options_count":62}
+[16:54:56 UTC] [INFO] Old site options backed up
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_product_attributes"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_product_attributes"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_product_cat_list"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_product_cat_list"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_product_cat"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_product_cat"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"custom_logo"}
+[16:54:57 UTC] [INFO] Importing custom logo | Context: {"logo_id":"https:\/\/websitedemos.net\/earth-02\/wp-content\/uploads\/sites\/1125\/2022\/08\/Logo.png"}
+[16:54:57 UTC] [INFO] info | Context: {"url":"https:\/\/websitedemos.net\/earth-02\/wp-content\/uploads\/sites\/1125\/2022\/08\/Logo.png"}
+[16:54:57 UTC] [INFO] info | Context: {"url":"https:\/\/websitedemos.net\/earth-02\/wp-content\/uploads\/sites\/1125\/2022\/08\/Logo.png","sha1":"60d957fa21e46ac8a4a75ede0ea48501e8d96e1c"}
+[16:54:57 UTC] [INFO] info | Context: {"url":"https:\/\/websitedemos.net\/earth-02\/wp-content\/uploads\/sites\/1125\/2022\/08\/Logo.png","sha1":"60d957fa21e46ac8a4a75ede0ea48501e8d96e1c"}
+[16:54:57 UTC] [INFO] success | Context: {"url":"https:\/\/websitedemos.net\/earth-02\/wp-content\/uploads\/sites\/1125\/2022\/08\/Logo.png","attachment_id":"1383","attachment_url":"http:\/\/localhost\/thaolinhmateco\/wp-content\/uploads\/2022\/08\/Logo.png"}
+[16:54:57 UTC] [INFO] success | Context: {"url":"https:\/\/websitedemos.net\/earth-02\/wp-content\/uploads\/sites\/1125\/2022\/08\/Logo.png","attachment_id":"1383"}
+[16:54:57 UTC] [INFO] success | Context: {"url":"https:\/\/websitedemos.net\/earth-02\/wp-content\/uploads\/sites\/1125\/2022\/08\/Logo.png","attachment_id":"1383","logo_url":"http:\/\/localhost\/thaolinhmateco\/wp-content\/uploads\/2022\/08\/Logo.png"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"nav_menu_locations"}
+[16:54:57 UTC] [INFO] Setting navigation menu locations | Context: {"menu_count":2}
+[16:54:57 UTC] [INFO] info | Context: {"total_locations":2}
+[16:54:57 UTC] [INFO] info | Context: {"location":"primary","slug":"main-menu","menu_id":17}
+[16:54:57 UTC] [INFO] info | Context: {"location":"footer_menu","slug":"main-menu","menu_id":17}
+[16:54:57 UTC] [INFO] success | Context: {"successful_mappings":2,"failed_locations":[],"total_locations":2}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"show_on_front"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"show_on_front"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"page_on_front"}
+[16:54:57 UTC] [INFO] Updating page ID option | Context: {"option_name":"page_on_front","option_value":"Home"}
+[16:54:57 UTC] [INFO] info | Context: {"option_name":"page_on_front","option_value":"Home"}
+[16:54:57 UTC] [INFO] success | Context: {"option_name":"page_on_front","page_title":"Home","page_id":1448}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"page_for_posts"}
+[16:54:57 UTC] [INFO] Updating page ID option | Context: {"option_name":"page_for_posts","option_value":""}
+[16:54:57 UTC] [INFO] warning | Context: {"option_name":"page_for_posts"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"_fl_builder_enabled_icons"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"_fl_builder_enabled_modules"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"_fl_builder_post_types"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"_fl_builder_color_presets"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"_fl_builder_services"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"_fl_builder_settings"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"_fl_builder_user_access"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"_fl_builder_enabled_templates"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"elementor_container_width"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"elementor_cpt_support"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_cpt_support"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"elementor_css_print_method"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_css_print_method"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"elementor_default_generic_fonts"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"elementor_disable_color_schemes"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_disable_color_schemes"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"elementor_disable_typography_schemes"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_disable_typography_schemes"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"elementor_editor_break_lines"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_editor_break_lines"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"elementor_exclude_user_roles"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"elementor_global_image_lightbox"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"elementor_page_title_selector"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"elementor_scheme_color"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_scheme_color"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"elementor_scheme_color-picker]"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_scheme_color-picker]"}
+[16:54:57 UTC] [INFO] Processing option | Context: {"option_name":"elementor_scheme_typography"}
+[16:54:57 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_scheme_typography"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"elementor_space_between_widgets"}
+[16:54:57 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"elementor_stretched_section_container"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"elementor_load_fa4_shim"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_load_fa4_shim"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"elementor_active_kit"}
+[16:54:58 UTC] [INFO] Setting up Elementor kit
+[16:54:58 UTC] [INFO] Starting Elementor kit setup
+[16:54:58 UTC] [INFO] Querying for Elementor kit posts | Context: {"post_type":"elementor_library"}
+[16:54:58 UTC] [SUCCESS] Elementor active kit set successfully | Context: {"kit_id":1659}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"elementor_experiment-container"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_experiment-container"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"elementor_install_history"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"elementor_install_history"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_shop_page_title"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_shop_page_title"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_cart_page_title"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_cart_page_title"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_checkout_page_title"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_checkout_page_title"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_myaccount_page_title"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_myaccount_page_title"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_edit_address_page_title"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_edit_address_page_title"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_view_order_page_title"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_view_order_page_title"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_change_password_page_title"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_change_password_page_title"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"woocommerce_logout_page_title"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"woocommerce_logout_page_title"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"woocommerce_enable_guest_checkout"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"woocommerce_enable_checkout_login_reminder"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"woocommerce_enable_signup_and_login_from_checkout"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"woocommerce_enable_myaccount_registration"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"woocommerce_registration_generate_username"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"edd_settings"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"wpforms_settings"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"wpforms_settings"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"learndash_settings_theme_ld30"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"learndash_settings_courses_themes"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"srfm_general_settings_options"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"get_default_dynamic_block_option"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"srfm_default_dynamic_block_option"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"srfm_email_summary_settings_options"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"srfm_security_settings_options"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"cfvsw_global"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"cfvsw_shop"}
+[16:54:58 UTC] [INFO] Option value is null, skipping | Context: {"option_name":"cfvsw_style"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"astra-color-palettes"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"astra-color-palettes"}
+[16:54:58 UTC] [INFO] Processing option | Context: {"option_name":"astra-typography-presets"}
+[16:54:58 UTC] [INFO] Updating standard option | Context: {"option_name":"astra-typography-presets"}
+[16:54:58 UTC] [INFO] Running st_importer_import_site_options action
+[16:54:58 UTC] [INFO] Processing site options import - Total options: 62
+[16:54:58 UTC] [INFO] Updated option: woocommerce_product_attributes
+[16:54:58 UTC] [INFO] Updated option: woocommerce_product_cat_list
+[16:54:58 UTC] [INFO] Processing WooCommerce product categories - Total: 0
+[16:54:58 UTC] [SUCCESS] WooCommerce product categories processed successfully
+[16:54:58 UTC] [INFO] Inserting custom logo from URL: https://websitedemos.net/earth-02/wp-content/uploads/sites/1125/2022/08/Logo.png
+[16:54:58 UTC] [INFO] Starting image import for URL: https://websitedemos.net/earth-02/wp-content/uploads/sites/1125/2022/08/Logo.png
+[16:54:58 UTC] [INFO] Image already exists in media library (ID: 1383), skipping download
+[16:54:58 UTC] [SUCCESS] Custom logo set successfully - ID: 1383
+[16:54:58 UTC] [INFO] Setting nav menu locations - Total menus: 2
+[16:54:58 UTC] [INFO] Menu location 'primary' set to term ID: 17
+[16:54:58 UTC] [INFO] Menu location 'footer_menu' set to term ID: 17
+[16:54:58 UTC] [SUCCESS] Nav menu locations updated successfully
+[16:54:58 UTC] [INFO] Updated option: show_on_front | Context: "page"
+[16:54:59 UTC] [INFO] Updating page ID for option: page_on_front with value: Home
+[16:54:59 UTC] [INFO] Page ID updated for page_on_front: 1448
+[16:54:59 UTC] [INFO] Updating page ID for option: page_for_posts with value: 
+[16:54:59 UTC] [INFO] Updated option: elementor_cpt_support | Context: ["post","page"]
+[16:54:59 UTC] [INFO] Updated option: elementor_css_print_method | Context: "external"
+[16:54:59 UTC] [INFO] Updated option: elementor_disable_color_schemes | Context: "yes"
+[16:54:59 UTC] [INFO] Updated option: elementor_disable_typography_schemes | Context: "yes"
+[16:54:59 UTC] [INFO] Updated option: elementor_editor_break_lines
+[16:54:59 UTC] [INFO] Updated option: elementor_scheme_color | Context: {"1":"#6ec1e4","2":"#54595f","3":"#7a7a7a","4":"#61ce70"}
+[16:54:59 UTC] [INFO] Updated option: elementor_scheme_color-picker] | Context: {"1":"#6ec1e4","2":"#54595f","3":"#7a7a7a","4":"#61ce70","5":"#4054b2","6":"#23a455","7":"#000","8":"#fff"}
+[16:54:59 UTC] [INFO] Updated option: elementor_scheme_typography | Context: {"1":{"font_family":"Roboto","font_weight":"600"},"2":{"font_family":"Roboto Slab","font_weight":"400"},"3":{"font_family":"Roboto","font_weight":"400"},"4":{"font_family":"Roboto","font_weight":"500"}}
+[16:54:59 UTC] [INFO] Updated option: elementor_load_fa4_shim | Context: "yes"
+[16:54:59 UTC] [INFO] Searching for Elementor kit to set as active
+[16:54:59 UTC] [INFO] Elementor active kit set to ID: 1659
+[16:54:59 UTC] [INFO] Updated option: elementor_experiment-container | Context: "active"
+[16:54:59 UTC] [INFO] Updated option: elementor_install_history | Context: {"3.7.4":1664864181,"3.9.1":1671430642,"3.9.2":1672837660,"3.11.4":1678872841,"3.12.0":1680228030}
+[16:54:59 UTC] [INFO] Updating WooCommerce page ID for option: woocommerce_shop_page_title with value: 
+[16:54:59 UTC] [INFO] Updating page ID for option: woocommerce_shop_page_id with value: 
+[16:54:59 UTC] [INFO] Updating WooCommerce page ID for option: woocommerce_cart_page_title with value: 
+[16:54:59 UTC] [INFO] Updating page ID for option: woocommerce_cart_page_id with value: 
+[16:54:59 UTC] [INFO] Updating WooCommerce page ID for option: woocommerce_checkout_page_title with value: 
+[16:54:59 UTC] [INFO] Updating page ID for option: woocommerce_checkout_page_id with value: 
+[16:54:59 UTC] [INFO] Updating WooCommerce page ID for option: woocommerce_myaccount_page_title with value: 
+[16:54:59 UTC] [INFO] Updating page ID for option: woocommerce_myaccount_page_id with value: 
+[16:54:59 UTC] [INFO] Updating WooCommerce page ID for option: woocommerce_edit_address_page_title with value: 
+[16:54:59 UTC] [INFO] Updating page ID for option: woocommerce_edit_address_page_id with value: 
+[16:54:59 UTC] [INFO] Updating WooCommerce page ID for option: woocommerce_view_order_page_title with value: 
+[16:54:59 UTC] [INFO] Updating page ID for option: woocommerce_view_order_page_id with value: 
+[16:54:59 UTC] [INFO] Updating WooCommerce page ID for option: woocommerce_change_password_page_title with value: 
+[16:54:59 UTC] [INFO] Updating page ID for option: woocommerce_change_password_page_id with value: 
+[16:54:59 UTC] [INFO] Updating WooCommerce page ID for option: woocommerce_logout_page_title with value: 
+[16:54:59 UTC] [INFO] Updating page ID for option: woocommerce_logout_page_id with value: 
+[16:54:59 UTC] [INFO] Updated option: wpforms_settings | Context: {"lite-connect-enabled":false,"disable-css":"2","global-assets":false,"gdpr":false,"modern-markup":"0","modern-markup-is-set":true}
+[16:54:59 UTC] [INFO] Updated option: astra-color-palettes | Context: {"currentPalette":"palette_1","palettes":{"palette_1":["#74a84a","#2c541d","#000000","#585858","#f6f8f5","#ffffff","rgba(82,104,64,0.8)","rgba(82,104,64,0.5)","rgba(82,104,64,0.3)"],"palette_2":["#0170b9","#3a3a3a","#3a3a3a","#4b4f58","#f5f5f5","#ffffff","#f2f5f7","#424242","#000000"],"palette_3":["#0274be","#3a3a3a","#3a3a3a","#4b4f58","#f5f5f5","#ffffff","#F2F5F7","#424242","#000000"],"palette_4":["#0085FF","#0177E3","#FFFFFF","#E7F6FF","#212A37","#0F172A","#4F5B62","#070614","#222222"]},"flag":true,"presets":{"Oak":["#0067FF","#005EE9","#0F172A","#364151","#E7F6FF","#FFFFFF","#D1DAE5","#070614","#222222"],"Viola":["#6528F7","#5511F8","#0F172A","#454F5E","#F2F0FE","#FFFFFF","#D8D8F5","#0D0614","#222222"],"Cedar":["#DD183B","#CC1939","#0F172A","#3A3A3A","#FFEDE6","#FFFFFF","#FFD1BF","#140609","#222222"],"Willow":["#54B435","#379237","#0F172A","#2F3B40","#EDFBE2","#FFFFFF","#D5EAD8","#0C1406","#222222"],"Lily":["#DCA54A","#D09A40","#0F172A","#4A4A4A","#FAF5E5","#FFFFFF","#F0E6C5","#141004","#222222"],"Rose":["#FB5FAB","#EA559D","#0F172A","#454F5E","#FCEEF5","#FFFFFF","#FAD8E9","#140610","#222222"],"Sage":["#1B9C85","#178E79","#0F172A","#454F5E","#EDF6EE","#FFFFFF","#D4F3D7","#06140C","#222222"],"Flare":["#FD9800","#E98C00","#0F172A","#454F5E","#FEF9E1","#FFFFFF","#F9F0C8","#141006","#222222"],"Maple":["#FF6210","#F15808","#1C0D0A","#353535","#FEF1E4","#FFFFFF","#E5D7D1","#140B06","#222222"],"Birch":["#737880","#65696F","#151616","#393C40","#F6F6F6","#FFFFFF","#F1F0F0","#232529","#222222"],"Dark":["#0085FF","#0177E3","#FFFFFF","#E7F6FF","#212A37","#0F172A","#4F5B62","#070614","#222222"]}}
+[16:54:59 UTC] [INFO] Updated option: astra-typography-presets
+[16:54:59 UTC] [SUCCESS] Classic templates options import completed successfully
+[16:54:59 UTC] [SUCCESS] Site options import completed successfully | Context: {"processed_count":31,"skipped_count":31,"total_count":62}
+[16:54:59 UTC] [SUCCESS] Site options Imported!
+[16:55:02 UTC] [INFO] Image subsizes deferral enabled for import
+[16:55:03 UTC] [INFO] ---
+
+[16:55:03 UTC] [INFO] Starting import widgets
+[16:55:03 UTC] [INFO] Importing widgets
+[16:55:03 UTC] [INFO] Starting widgets import
+[16:55:03 UTC] [INFO] Processing widget data | Context: {"data_type":"string","widgets_data_type":"string"}
+[16:55:03 UTC] [INFO] Parsing widget data from JSON string
+[16:55:03 UTC] [INFO] Importing widget data via ST_Widget_Importer
+[16:55:03 UTC] [INFO] Starting widget import process
+[16:55:03 UTC] [INFO] Checking available widgets | Context: {"widget_control_count":38}
+[16:55:03 UTC] [INFO] Widget availability check completed | Context: {"available_widget_count":34,"available_widgets":["pages","calendar","archives","media_audio","media_image","media_gallery","media_video","meta","search","text","categories","recent-posts","recent-comments","rss","tag_cloud","nav_menu","custom_html","block","woocommerce_widget_cart","woocommerce_layered_nav_filters","woocommerce_layered_nav","woocommerce_price_filter","woocommerce_product_categories","woocommerce_product_search","woocommerce_product_tag_cloud","woocommerce_products","woocommerce_recently_viewed_products","woocommerce_top_rated_products","woocommerce_recent_reviews","woocommerce_rating_filter","wpforms-widget","wc_brands_brand_description","woocommerce_brand_nav","wc_brands_brand_thumbnails"]}
+[16:55:03 UTC] [INFO] Loaded widget configuration | Context: {"available_widget_types":34,"sidebar_count":5}
+[16:55:03 UTC] [INFO] Processing sidebars from import data | Context: {"sidebar_count_in_data":2}
+[16:55:03 UTC] [INFO] Processing sidebar: sidebar-1 | Context: {"sidebar_name":"Thanh b\u00ean ch\u00ednh","widget_count":5,"availability":"available"}
+[16:55:03 UTC] [INFO] Processing widget: block-2 | Context: {"widget_type":"block","instance_id":"2","sidebar_id":"sidebar-1"}
+[16:55:03 UTC] [WARNING] Duplicate widget skipped: block-2 | Context: {"widget_type":"block","existing_instance_id":"block-2","sidebar_id":"sidebar-1"}
+[16:55:04 UTC] [INFO] Processing widget: block-3 | Context: {"widget_type":"block","instance_id":"3","sidebar_id":"sidebar-1"}
+[16:55:04 UTC] [INFO] Widget data formatted and saved: block | Context: {"widget_type":"block","instance_count":7,"update_result":true}
+[16:55:04 UTC] [SUCCESS] Widget imported successfully: block-7 | Context: {"widget_type":"block","new_instance_id":"block-7","sidebar_id":"sidebar-1","widget_title":"No Title"}
+[16:55:04 UTC] [INFO] Processing widget: block-4 | Context: {"widget_type":"block","instance_id":"4","sidebar_id":"sidebar-1"}
+[16:55:04 UTC] [INFO] Widget data formatted and saved: block | Context: {"widget_type":"block","instance_count":8,"update_result":true}
+[16:55:04 UTC] [SUCCESS] Widget imported successfully: block-8 | Context: {"widget_type":"block","new_instance_id":"block-8","sidebar_id":"sidebar-1","widget_title":"No Title"}
+[16:55:04 UTC] [INFO] Processing widget: block-5 | Context: {"widget_type":"block","instance_id":"5","sidebar_id":"sidebar-1"}
+[16:55:04 UTC] [INFO] Widget data formatted and saved: block | Context: {"widget_type":"block","instance_count":9,"update_result":true}
+[16:55:04 UTC] [SUCCESS] Widget imported successfully: block-9 | Context: {"widget_type":"block","new_instance_id":"block-9","sidebar_id":"sidebar-1","widget_title":"No Title"}
+[16:55:04 UTC] [INFO] Processing widget: block-6 | Context: {"widget_type":"block","instance_id":"6","sidebar_id":"sidebar-1"}
+[16:55:04 UTC] [INFO] Widget data formatted and saved: block | Context: {"widget_type":"block","instance_count":10,"update_result":true}
+[16:55:04 UTC] [SUCCESS] Widget imported successfully: block-10 | Context: {"widget_type":"block","new_instance_id":"block-10","sidebar_id":"sidebar-1","widget_title":"No Title"}
+[16:55:04 UTC] [INFO] Processing sidebar: footer-widget-1 | Context: {"sidebar_name":"Footer Builder Widget 1","widget_count":1,"availability":"available"}
+[16:55:04 UTC] [INFO] Processing widget: block-8 | Context: {"widget_type":"block","instance_id":"8","sidebar_id":"footer-widget-1"}
+[16:55:04 UTC] [INFO] Widget data formatted and saved: block | Context: {"widget_type":"block","instance_count":11,"update_result":true}
+[16:55:04 UTC] [SUCCESS] Widget imported successfully: block-11 | Context: {"widget_type":"block","new_instance_id":"block-11","sidebar_id":"footer-widget-1","widget_title":"No Title"}
+[16:55:04 UTC] [INFO] Widget import process completed | Context: {"total_sidebars_processed":2,"successful_imports":5,"warnings":1,"errors":0,"total_widgets_processed":6}
+[16:55:04 UTC] [INFO] Retrieving current sidebars and widgets
+[16:55:04 UTC] [INFO] Backing up old widgets data | Context: {"sidebars_count":11}
+[16:55:04 UTC] [SUCCESS] Widgets import completed successfully
+[16:55:04 UTC] [SUCCESS] Widget Imported!
+[16:55:07 UTC] [INFO] Image subsizes deferral enabled for import
+[16:55:08 UTC] [INFO] ---
+
+[16:55:08 UTC] [INFO] Setting site data: site-logo
+[16:55:11 UTC] [INFO] Image subsizes deferral enabled for import
+[16:55:12 UTC] [INFO] ---
+
+[16:55:12 UTC] [INFO] Setting site data: site-colors
+[16:55:16 UTC] [INFO] Image subsizes deferral enabled for import
+[16:55:17 UTC] [INFO] ---
+
+[16:55:17 UTC] [INFO] Setting site data: site-typography
+[16:55:21 UTC] [INFO] Image subsizes deferral enabled for import
+[16:55:23 UTC] [INFO] ---
+
+[16:55:23 UTC] [INFO] Starting import end process
+[16:55:23 UTC] [INFO] Finalizing import process
+[16:55:23 UTC] [INFO] Setting permalink structure to post name
+[16:55:23 UTC] [INFO] Executing import complete actions
+[16:55:23 UTC] [INFO] Batch processing started
+[16:55:23 UTC] [INFO] Batch processing queue created | Context: {"total_classes":7,"attachment_count":19,"has_images":true}
+[16:55:24 UTC] [INFO] Batch processing queue dispatched to background
+[16:55:24 UTC] [INFO] Batch Process Started..
+[16:55:24 UTC] [INFO] Starter Templates - Importing Images for Blog name 'Công ty TNHH phát triển công nghệ hàng hải Thảo Linh' (1)
+[16:55:25 UTC] [SUCCESS] Import completed successfully!
+[16:55:34 UTC] [INFO] Import process completed. Cleaning up log file option.

@@ -1,0 +1,5 @@
+# WordPress backup files
+/wp-content/ai1wm-backups/
+
+# WordPress debug logs
+/wp-content/debug.log
